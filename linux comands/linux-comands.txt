@@ -1,0 +1,39 @@
+Top 25 Most Used Linux Commands
+-------------------------------
+
+1. ls              - List files and directories
+2. cd              - Change directory
+3. pwd             - Print current working directory
+4. mkdir           - Create a directory
+5. rm              - Remove files/directories
+6. cp              - Copy files/directories
+7. mv              - Move or rename files/directories
+8. touch           - Create an empty file
+9. cat             - View file contents
+10. nano / vim     - Text editors in terminal
+11. clear          - Clear terminal screen
+12. echo           - Display a string or variable
+13. chmod          - Change file permissions
+14. chown          - Change file ownership
+15. top            - Real-time system processes
+16. ps aux         - View all running processes
+17. kill PID       - Kill a process by PID
+18. df -h          - Show disk usage
+19. du -sh         - Show directory/file size
+20. free -h        - Display memory usage
+21. grep           - Search for patterns in files
+22. find           - Search for files/directories
+23. tar            - Archive/compress/extract files
+24. curl / wget    - Download files or test endpoints
+25. man            - View manual page for any command
+
+Bonus Command Combos
+---------------------------
+- tail -f /var/log/syslog               --> Live log monitoring
+- ps aux | grep nginx                   --> Find running processes
+- df -hT                                --> View disk usage by type
+- find . -type f -name "*.log"          --> Find log files
+- chmod +x script.sh                    --> Make a script executable
+- crontab -e                            --> Schedule automated jobs
+
+
