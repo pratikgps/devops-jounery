@@ -1,0 +1,61 @@
+
+📝 Git Command Cheat Sheet (Beginner to Pro)
+
+🔹 Setup & Configuration
+git --version                   # Check Git version
+git config --global user.name "Your Name"    # Set username
+git config --global user.email "you@example.com"   # Set email
+git config --list                # View all configs
+
+🔹 Getting Started
+git init                        # Initialize new local repo
+git clone <url>                 # Clone remote repo
+git status                      # Show changed files
+git help <command>              # Get help for a command
+
+🔹 Basic Snapshotting
+git add file.txt                # Stage a file
+git add .                       # Stage all changes
+git commit -m "message"         # Commit staged changes
+git commit -am "msg"            # Add + commit tracked files
+git log                         # Show commit history
+git show <commit-id>            # Show details of a commit
+
+🔹 Branching & Merging
+git branch                      # List branches
+git branch feature-1            # Create new branch
+git checkout feature-1          # Switch to branch
+git checkout -b hotfix          # Create + switch branch
+git merge feature-1             # Merge branch into current
+git branch -d feature-1         # Delete branch
+
+🔹 Working with Remote
+git remote -v                   # Show remote URLs
+git remote add origin <url>     # Add remote repo
+git push -u origin main         # Push branch to remote
+git pull origin main            # Pull latest changes
+git fetch origin                # Download changes, don’t merge
+git push origin feature-1       # Push feature branch
+
+🔹 Undoing Things
+git checkout -- file.txt        # Discard changes in file
+git reset HEAD file.txt         # Unstage file
+git reset --hard HEAD~1         # Remove last commit
+git revert <commit-id>          # Create new commit undoing changes
+
+🔹 Stashing (Temporary Save)
+git stash                       # Save dirty state
+git stash list                  # Show stashes
+git stash apply stash@{0}       # Reapply stash
+git stash drop stash@{0}        # Delete stash
+
+🔹 Collaboration & PRs
+git fetch origin                # Get latest remote info
+git rebase origin/main          # Rebase with main branch
+git diff                        # Show unstaged changes
+git diff --staged               # Show staged changes
+
+🔥 Pro Tip:
+- Always pull before push → git pull origin main
+- Write clear commit messages → "Fix bug in login API"
+- Use branches for every feature → feature/new-ui
