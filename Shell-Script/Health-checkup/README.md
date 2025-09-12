@@ -67,15 +67,14 @@ Copy code
 This generates and emails the report instantly.
 
 ⏰ Automating with Cron
+
 Set up a daily health check email at 9:00 AM:
 
-bash
-Copy code
 crontab -e
+
+
 Add this line:
 
-bash
-Copy code
 0 9 * * * /bin/bash /path/to/sys_health.sh --cron
 
 
