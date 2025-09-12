@@ -59,6 +59,7 @@ You’ll get options like:
 5. Send Comprehensive Report
 6. Exit
 
+
 3. Run directly in cron mode
 ./sys_health.sh --cron
 
