@@ -41,16 +41,29 @@ Update your email address in the script:
 bash
 Copy code
 EMAIL="Pratik.gitlab@gmail.com"
-🚀 Usage
-1️⃣ Make it executable
-bash
-Copy code
+
+🛠️ Usage
+1. Make the script executable
 chmod +x sys_health.sh
-2️⃣ Run interactively (menu-driven)
-bash
-Copy code
+
+2. Run interactively (menu-driven)
 ./sys_health.sh
-🔸 Menu options will appear like this:
+
+
+You’ll get options like:
+
+1. Check Disk Usage
+2. Monitor Running Services
+3. Assess Memory Usage
+4. Evaluate CPU Usage
+5. Send Comprehensive Report
+6. Exit
+
+3. Run directly in cron mode
+./sys_health.sh --cron
+
+
+This will skip the menu and email the full report.
 
 markdown
 Copy code
