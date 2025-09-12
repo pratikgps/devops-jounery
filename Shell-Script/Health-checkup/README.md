@@ -77,6 +77,8 @@ Add this line:
 bash
 Copy code
 0 9 * * * /bin/bash /path/to/sys_health.sh --cron
+
+
 📧 Email Report Sample
 diff
 Copy code
@@ -107,9 +109,10 @@ Mem:           3953        2012        1941
 
 🔔 Integrate with Slack / Teams for notifications
 
-👨‍💻 Author
-Pratik
+
+👨‍💻 Author : Pratik Gupta
 📧 Email: Pratik.gitlab@gmail.com
+
 🌐 Sharing my DevOps Journey step by step!
 
 ⭐ If you find this useful, don’t forget to star the repo and follow my #LearnInPublic journey 🚀
